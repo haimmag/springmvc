@@ -1,0 +1,25 @@
+
+<DIV class="page-header">
+	<H1>Students</H1>
+</DIV>
+<DIV class="row">
+	<DIV class="col-md-12">
+		<TABLE class="table">
+			<THEAD>
+				<TR>
+					<TH>name</TH>
+					<TH>desc</TH>
+					<TH>courses</TH>
+				</TR>
+			</THEAD>
+			<TBODY>
+				<TR ng-repeat="student in students">
+					<TD>{{student.firstName}}</TD>
+					<TD>{{student.lastName}}</TD>
+					<TD><a ng-href="/University/#students/{{student.id}}">courses list</a></TD>
+				</TR>
+			</TBODY>
+		</TABLE>
+	</DIV>
+
+</DIV>

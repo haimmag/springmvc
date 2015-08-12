@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: university
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Haim.Magen
+Implementation-Vendor-Id: org.mag
+Build-Jdk: 1.8.0_40
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+

@@ -1,0 +1,32 @@
+
+<DIV class="page-header">
+	<H1>courses Students</H1>
+</DIV>
+
+<div class="panel panel-default">
+  <div class="panel-body">
+    course: {{course.name}}    
+  </div>
+</div>
+
+<DIV class="row">
+	<DIV class="col-md-12">
+		<TABLE class="table">
+			<THEAD>
+				<TR>
+					<TH></TH>
+					<TH>name</TH>
+					<TH>desc</TH>
+				</TR>
+			</THEAD>
+			<TBODY>
+				<TR ng-repeat="student in course.students">
+					<TD>{{$index}}</TD>
+					<TD>{{student.firstName}}</TD>
+					<TD>{{student.lastName}}</TD>
+				</TR>
+			</TBODY>
+		</TABLE>
+	</DIV>
+
+</DIV>
